@@ -1,0 +1,216 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #707070;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+header{
+	padding: 12px 0;
+	background: #F7CE3E;
+}
+.container{
+	width: 1700px;
+/*	height: 100vh;*/
+}
+.logo img{
+	width: 80px;
+}
+.menu{
+	height: 100%;
+}
+.menu ul{
+	list-style: none;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.menu ul li{
+	margin: 0 50px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #0A1612;
+	font-size: 20px;
+}
+.menu ul li a:hover{
+	color: white;
+	transition-duration: 0.5s;
+}
+main{
+	margin-top: 50px;
+}
+.ttk table{
+	margin: 0 auto;
+}
+td img{
+	width: 23px;
+}
+tr, td{
+	padding: 0 5px;
+}
+input{
+	width: 500px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	padding: 0 7px;
+}
+.gioi-thieu{
+/*	background: red;*/
+	padding: 125px;
+}
+.left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.left h1{
+	font-size: 70px;
+	margin-bottom: 20px;
+/*	color: #F7CE3E;*/
+}
+.left p{
+	font-size: 30px;
+	margin-bottom: 30px
+}
+.left h2{
+	font-size: 40px;
+	color: #F7CE3E;
+}
+.ki-nang h2{
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 02px;
+}
+.hightlight{
+	color:#F7CE3E
+}
+.content{
+	padding: 50px 0
+}
+.right-content p{
+	font-size: 21px;
+	margin-top: 65px;
+}
+.left-content img{
+	width: 530px;
+	padding: 50px 0;
+}
+.timeline{
+	padding: 50px 0;
+}
+.timeline table{
+	width: 400px;
+	margin-top: 20px
+}
+td{
+	height: 35px;
+	color: black;
+}
+.timeline h1{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+.right-tl img{
+	width: 700px;
+	padding: 50px 0;
+}
+.portfolio{
+	padding: 50px 0;
+}
+.portfolio h1{
+	font-size: 40px;
+	text-align: center;
+}
+.tab{
+	text-align: center;
+	margin-bottom: 24px;
+	padding: 30px 0px 50px 0;
+}
+.tabcontent{
+	animation: fadeEffect 1s;
+}
+.tabcontent img{
+	width: 350px;
+}
+.album{
+	width: 100%;
+/*	background: blue;*/
+	display: flex;
+	flex-wrap: wrap;
+/*	justify-content: space-around;*/
+}
+.album a{
+	margin:20px 20px;
+}
+.tablinks{
+	padding: 10px 20px;
+	font-size: 20px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.tab button:hover {
+  background-color: #F7CE3E;
+	transition-duration: 1s;
+}
+.tab button.active {
+  background-color: #F7CE3E;
+	transition-duration: 0.5s;
+}
+.download{
+	padding: 50px 0;
+}
+.download h1{
+	font-size: 40px;
+	text-align: center;
+}
+.btn{
+	padding: 50px 0;
+	text-align: center;
+}
+.btn a{
+	padding: 20px 40px;
+	background: #F7CE3E;
+	color: #0A1612;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border-radius: 5px;
+}
+.btn a:hover{
+	background: white;
+	transition-duration: 1s;
+}
+footer{
+	background: #0A1612;
+	padding: 50px 0;
+}
+.lien-he ul li{
+	margin-top: 5px;
+}
+.dia-chi p{
+	margin-top: 5px;
+}
+.social-network{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.social-network img{
+	width: 30px;
+	margin: 0 10px;
+}
+
